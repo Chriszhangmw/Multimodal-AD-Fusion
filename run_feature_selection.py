@@ -4,7 +4,7 @@ import numpy as np
 import torch.utils.data as data
 import random
 import torch
-import gnn_model_w_change as models
+import enhanced_framework_modules as models
 import argparse
 import torch.optim as optim
 from torch.autograd import Variable

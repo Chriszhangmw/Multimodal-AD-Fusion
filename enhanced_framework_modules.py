@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from torch.autograd import Variable
-import gnn_w_change as gnn_w
+import sub_modules as gnn_w
 
 
 class LongitudinalcCNN(nn.Module):
